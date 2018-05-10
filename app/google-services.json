@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "199869983620",
+    "firebase_url": "https://abroath-fanzine.firebaseio.com",
+    "project_id": "abroath-fanzine",
+    "storage_bucket": "abroath-fanzine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199869983620:android:8cf7ef64cd088de5",
+        "android_client_info": {
+          "package_name": "com.example.josefbenassi.abroathfanzine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199869983620-992pkbr7405mc77r0vco484no5uj7hee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.josefbenassi.abroathfanzine",
+            "certificate_hash": "abfff480e56d113dad288ea2c25c28ea384e504e"
+          }
+        },
+        {
+          "client_id": "199869983620-hmgn5uq05p2hudinej14m0elo7r781pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn1HgAGHneR_hQaA_hwx9kjKwFUJ0syIM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199869983620-hmgn5uq05p2hudinej14m0elo7r781pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

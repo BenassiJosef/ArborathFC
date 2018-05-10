@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josefbenassi.abroathfanzine.activites.Register_Activity"
+    android:background="@drawable/park2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp">
+
+
+
+        <EditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Firstname"
+            android:inputType="textPersonName"
+            android:nextFocusDown="@+id/secondNameEditText"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorDivider"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/secondNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Secondname"
+            android:inputType="textPersonName"
+            android:nextFocusDown="@+id/streetNameEditText"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorDivider"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/streetNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Streetname"
+            android:inputType="textPostalAddress"
+            android:nextFocusDown="@+id/ageEditText"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorDivider"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/ageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Age"
+            android:inputType="number"
+            android:nextFocusDown="@+id/passwordEditText"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorDivider"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/subscriptionTypeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/subButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="23dp"
+            android:layout_toStartOf="@+id/userEmail"
+            android:textColor="@color/colorTextIcons"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Partial User - No access to chat room" />
+
+        <RadioButton
+            android:id="@+id/fullButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="23dp"
+            android:textColor="@color/colorTextIcons"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_toStartOf="@+id/userEmail"
+            android:text="Full User - Access all areas" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Save"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorTextIcons" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorPrimaryLight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

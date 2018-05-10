@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#ffffff</color>
+    <color name="colorAccent">#6fc9f9</color>
+
+    <color name="bg_splash">#24477c</color>
+    <color name="text_splash">#FFD700</color>
+
+    <color name="register">#db24477c</color>
+
+    <color name="colorTextIcons">#ffffff</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="textBackground">#a33750</color>
+
+    <color name="table_Labels">#000000</color>
+
+    <color name="cardholder_colour">#b724477c</color>
+</resources>

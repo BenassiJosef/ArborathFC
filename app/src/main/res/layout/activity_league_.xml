@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_x="198dp"
+    android:layout_y="198dp"
+    android:orientation="vertical"
+    android:background="@drawable/park2"
+    >
+
+
+    <TextView
+        android:id="@+id/positions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="54dp"
+        android:text="TextView"
+        android:textColor="@color/colorTextIcons"/>
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/positions"
+        android:layout_alignBottom="@+id/positions"
+        android:layout_toEndOf="@+id/positions"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/colorTextIcons"/>
+
+    <TextView
+        android:id="@+id/played"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/team"
+        android:layout_alignBottom="@+id/team"
+        android:layout_toEndOf="@+id/team"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/colorTextIcons"/>
+
+    <TextView
+        android:id="@+id/goalDifference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/played"
+        android:layout_alignBottom="@+id/played"
+        android:layout_toEndOf="@+id/played"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/colorTextIcons"/>
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/goalDifference"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/goalDifference"
+        android:text="TextView"
+        android:textColor="@color/colorTextIcons"
+        android:layout_alignBottom="@+id/goalDifference" />
+
+    <TextView
+        android:id="@+id/positionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/position_label"
+        android:textColor="@color/table_Labels"
+        android:layout_marginStart="16dp"
+        android:layout_above="@+id/team"
+        android:layout_alignStart="@+id/positions" />
+
+    <TextView
+        android:id="@+id/teamLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/team_label"
+        android:textColor="@color/table_Labels"
+        android:layout_above="@+id/team"
+        android:layout_alignStart="@+id/team"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/playedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/played_label"
+        android:textColor="@color/table_Labels"
+        android:layout_above="@+id/played"
+        android:layout_alignEnd="@+id/played"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/goaldifferenceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/goaldifference_label"
+        android:textColor="@color/table_Labels"
+        android:layout_above="@+id/goalDifference"
+        android:layout_toStartOf="@+id/points" />
+
+    <TextView
+        android:id="@+id/pointsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/points_label"
+        android:textColor="@color/table_Labels"
+        android:layout_above="@+id/points"
+        android:layout_alignStart="@+id/points"
+        />
+
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.josefbenassi.abroathfanzine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activites.Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activites.Register_Activity" />
+        <activity android:name=".firebase.ResetPassword_Acitivty" />
+        <activity
+            android:name=".activites.Main_Activity"
+            android:label="@string/title_activity_main_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activites.Login_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".firebase.SaveUserDetails_Activity" />
+        <activity android:name=".activites.Chat_Activity" />
+        <activity android:name=".activites.League_Activity" />
+        <activity android:name=".activites.Squad_Activty" />
+        <activity android:name=".activites.Results_Activty" />
+        <activity android:name=".activites.Blocked_Activity" />
+        <activity android:name=".activites.News_Details_Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,134 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/park2">
+
+
+            <TextView
+                android:id="@+id/dates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="54dp"
+                android:text="TextView"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/competition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dates"
+                android:layout_alignBottom="@+id/dates"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/dates"
+                android:text="TextView"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/team1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/competition"
+                android:layout_alignBottom="@+id/competition"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/competition"
+                android:text="TextView"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/team1"
+                android:layout_alignBottom="@+id/team1"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/team1"
+                android:text="TextView"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/team2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/score"
+                android:layout_alignTop="@+id/score"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/score"
+                android:text="TextView"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/dataesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/competition"
+                android:layout_alignStart="@+id/dates"
+                android:layout_marginBottom="11dp"
+                android:text="Date"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="54dp"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/competitionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dataesTitle"
+                android:layout_toEndOf="@+id/dataesTitle"
+                android:text="Comp"
+                android:layout_marginStart="20dp"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/team1Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/competitionTitle"
+                android:layout_toEndOf="@+id/competitionTitle"
+                android:text="Team1"
+                android:layout_marginStart="25dp"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/scoreTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/team1Title"
+
+                android:layout_toEndOf="@+id/team1Title"
+                android:text="score"
+                android:layout_marginStart="29dp"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/team2Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/scoreTitle"
+                android:layout_toEndOf="@+id/scoreTitle"
+                android:text="team2"
+                android:layout_marginStart="32dp"
+                android:textSize="12dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>

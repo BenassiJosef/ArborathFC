@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/josefbenassi/Downloads/AbroathFanzine/app/libs/jsoup-1.10.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61f84a97f1a4f5905547b8b74afff8dc93f4cfce">
+        <dex dex="/Users/josefbenassi/Downloads/AbroathFanzine/app/build/intermediates/pre-dexed/debug/jsoup-1.10.2_c891be0647d5b155db9667cb97456ec3e1a391e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/josefbenassi/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="/Users/josefbenassi/Downloads/AbroathFanzine/app/build/intermediates/pre-dexed/debug/jsoup-1.10.2_5991d35d38de4dfb787791501c5417074a124d62.jar" />
+    </item>
+
+</items>
